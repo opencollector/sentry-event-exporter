@@ -2,7 +2,6 @@
 
 
 [[projects]]
-  branch = "fix-contexts-type"
   digest = "1:1e5bfd07ee0a3e6aea41a155c7498e40f8ac39c0184ac59fcd42ec4d71c447f9"
   name = "github.com/atlassian/go-sentry-api"
   packages = [
@@ -10,16 +9,15 @@
     "datatype",
   ]
   pruneopts = "UT"
-  revision = "f73eef6dc83618750cab2d0b92f262b3f0b88c66"
-  source = "github.com/moriyoshi/go-sentry-api"
+  revision = "728464ecc9cb871f0114a66929141c3178d6c814"
 
 [[projects]]
-  digest = "1:0981502f9816113c9c8c4ac301583841855c8cf4da8c72f696b3ebedf6d0e4e5"
+  digest = "1:9b90c7639a41697f3d4ad12d7d67dfacc9a7a4a6e0bbfae4fc72d0da57c28871"
   name = "github.com/mattn/go-isatty"
   packages = ["."]
   pruneopts = "UT"
-  revision = "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c"
-  version = "v0.0.4"
+  revision = "1311e847b0cb909da63b5fecfb5370aa66236465"
+  version = "v0.0.8"
 
 [[projects]]
   digest = "1:cf31692c14422fa27c83a05292eb5cbe0fb2775972e8f1f8446a71549bd8980b"
@@ -31,11 +29,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:f106a08663d0031b576f61ab81ffd80124da17096eab36aceb25b1b0d847da9a"
+  digest = "1:ec99dad7924bf972656818f5d62216fb987b7e077d401deb86b3c1e5e1b1d4d6"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "7fbe1cd0fcc20051e1fcb87fbabec4a1bacaaeba"
+  revision = "fc99dfbffb4e5ed5758a37e31dd861afe285406b"
 
 [solve-meta]
   analyzer-name = "dep"

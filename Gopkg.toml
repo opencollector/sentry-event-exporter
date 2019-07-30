@@ -1,7 +1,6 @@
 [[constraint]]
-  branch = "fix-contexts-type"
   name = "github.com/atlassian/go-sentry-api"
-  source = "github.com/moriyoshi/go-sentry-api"
+  revision = "728464ecc9cb871f0114a66929141c3178d6c814"
 
 [[constraint]]
   name = "github.com/mattn/go-isatty"
