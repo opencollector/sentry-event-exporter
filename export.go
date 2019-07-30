@@ -152,7 +152,9 @@ func (config *ExporterConfig) PopulateWithEvent(r *ExporterResult, event sentry.
 	r.Message = emptyIfNull(event.Message)
 	r.Release = config.StringizeRelease(event.Release)
 	r.EventCreated = *event.DateCreated
-	r.EventReceived = *event.DateReceived
+	if event.DateReceived != nil {
+		r.EventReceived = *event.DateReceived
+	}
 	r.Platform = emptyIfNull(event.Platform)
 	r.GroupID = emptyIfNull(event.GroupID)
 }
